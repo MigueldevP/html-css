@@ -3,9 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @font-face {
-    font-family: android;
-    src: url(/d010/fontes/idroid.otf);
+    font-family: 'android';
+    src: url(../desafios/modulo2/d010/fontes/IDroid.otf);
 }
+
 
 @keyframes pulsate {
     0%{
@@ -55,12 +56,13 @@ header > h1 {
     color: white;
     text-align: center;
     font-family: var(--fonte-destaque);
-    margin-bottom: 20px;
-    font-size: 3em;
     font-weight: normal;
-    padding-right: 10px;
-    padding-left: 10px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+     font-size: 3em;
+     margin-bottom: 20px;
+     padding-right: 10px;
+     padding-left: 10px;
+     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    
    
 }
 
@@ -116,14 +118,11 @@ main {
     
 }
 
-main  h1 {
+main   h1 {
     font-family: var(--fonte-android);
     color: var(--cor5);
-    display: inline-block;
     font-weight: normal;
-    font-size: 1.8em;
-    
-    
+    font-size: 1.8em; 
 }
 
 main  h2 {
